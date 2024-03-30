@@ -1,7 +1,8 @@
 {
   imports = [
-    ./zsh.nix
-    ./git.nix
+    ../modules/zsh/default.nix
+    ../modules/git/default.nix
+    ../modules/neovim/default.nix
   ];
 
   home = rec {
